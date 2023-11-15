@@ -1,0 +1,79 @@
+.project-page{
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    background: #9381ff;
+   grid-template-columns: 5fr 6fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+
+      
+}
+
+.item-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+
+  .item-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+   
+  }
+  .item-c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+  }
+  .item-d {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.project-heading{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+
+ .buttonProject{
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border: rgb(54, 51, 51) solid 3px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  text-align: center;
+ padding-top: 10px;
+ }
+
+ .buttonProject:hover{
+  top: 0px;
+  left: 0px;
+  
+  
+ }
+
+ .buttonProjectShadow{
+  height: 50px;
+  width: 150px;
+  background-color: rgb(34, 31, 31);
+  position: relative;
+ 
+
+ }
