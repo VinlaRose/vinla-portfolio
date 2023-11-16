@@ -41,7 +41,7 @@ body {
   }
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     margin-top: 25px;
@@ -98,4 +98,20 @@ body {
       background: white
       
     }
+  }
+
+
+  @media only screen and (max-width: 370px) {
+   
+    .nav-buttons a  {
+      text-decoration: none;
+      
+      margin-left: 10px; 
+    }
+    
+    .nav-buttons span {
+      margin-left: 8px;
+      
+    }
+    
   }
