@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     
   }
+
+ 
   
   button {
     padding: 10px;
@@ -21,10 +23,12 @@ body {
   }
 
   .dark-mode-on  {
+    background: #333;
    
     color: #fff;
   }
   .dark-mode-on a{
+    
     color: #fff
   }
   
@@ -76,4 +80,22 @@ body {
   font-size: 70px;
   font-weight: 500;
   
+  }
+
+  @media only screen and (max-width: 600px) {
+   
+    .container {
+      height: 100vh;
+      display: flex; 
+    }
+
+    .opening{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .light-mode-on  {
+      background: white
+      
+    }
   }
