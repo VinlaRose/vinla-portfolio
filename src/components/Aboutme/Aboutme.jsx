@@ -16,16 +16,16 @@ const AboutMe = () => {
   const containerClass = state.darkMode ? 'dark-mode-on' : 'light-mode-on';
 
   return (
-    <div className={`container ${containerClass}`}>
+    <div  className={`container ${containerClass}`}>
          <nav className="navbar">
       <div className="logo">
        
       </div>
       <div className="nav-buttons">
         <a href="#">Aboutme</a>
-        <a href="#">Projects</a>
+        <a href="#projects">Projects</a>
         <a href="#">Blogs</a>
-        <a href="#">Contact</a>
+        <a href="#connect">Connect</a>
         <span onClick={toggleDarkMode}>{state.darkMode ? <LightModeIcon/> : <DarkModeIcon/>}</span>
       </div>
     </nav>

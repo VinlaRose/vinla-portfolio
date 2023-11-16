@@ -4,7 +4,7 @@ import vinlaPic from "../../assets/profile.jpg"
 
 export const ContactPage = () => {
     return(
-        <div className="contactPage">
+        <div id="connect" className="contactPage">
             <div className="flipCardRing">
             <div className="flip-card">
   <div className="flip-card-inner">

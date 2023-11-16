@@ -3,7 +3,7 @@ import BoxWithDots from "../BoxWithDots/BoxWithDots"
 import "./Project.css"
 export const Projects = () => {
     return(
-        <div className="project-page">
+        <div id="projects" className="project-page" >
             <div className="item-a">
            <h1 className="project-heading">Projects.</h1>
             </div>

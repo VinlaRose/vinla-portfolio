@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       
       <AboutMe/>
-      <Projects/>
+      <Projects />
       <ContactPage/>
       
     </div>
