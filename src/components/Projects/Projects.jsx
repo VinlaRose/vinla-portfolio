@@ -1,7 +1,10 @@
 
+import {  useNavigate } from "react-router"
 import BoxWithDots from "../BoxWithDots/BoxWithDots"
 import "./Project.css"
+
 export const Projects = () => {
+    const navigate = useNavigate()
     return(
         <div id="projects" className="project-page" >
             <div className="item-a">
@@ -18,7 +21,8 @@ export const Projects = () => {
             <div className="item-d">
             
             <div class = "buttonProjectShadow">
-            <div class="buttonProject" >See All Projects..  </div>
+            
+            <div class="buttonProject" onClick={() => navigate("/allprojects")}  >See All Projects... </div>
             </div>
             </div>
            

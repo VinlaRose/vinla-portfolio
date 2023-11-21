@@ -1,6 +1,6 @@
 import { HelloPhoto } from "../HelloPhoto/HelloPhot"
 import "./Contact.css"
-import vinlaPic from "../../assets/profile.jpg"
+import vinlaPic from "../assets/profile.jpg"
 
 export const ContactPage = () => {
     return(

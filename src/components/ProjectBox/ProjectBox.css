@@ -1,0 +1,87 @@
+
+
+.projectBox{
+    background-color: white;
+    border: 3px solid rgb(70, 68, 68);
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 10px;
+   right: 10px;
+}
+.projectBoxContainer{
+   position: relative;
+   background-color: rgb(70, 68, 68);
+   height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.projectBox:hover{
+    bottom: 0px;
+    right: 0px;
+}
+.project-links{
+display: flex;
+justify-content: end;
+
+}
+.project-link{
+    color: black;
+    margin: 5px;
+}
+
+.project-name{
+    margin-bottom: 0;
+}
+
+.project-description-short{
+    margin-top: 0;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+
+.skill{
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+.projectBoxBE{
+    background-color: white;
+    border: 3px solid rgb(70, 68, 68);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 10px;
+   right: 10px;
+}
+.projectBoxContainerBE{
+   position: relative;
+   background-color: rgb(70, 68, 68);
+   height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+.projectBoxBE:hover{
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,53 @@
+.all-projects-page{
+    background-color: #fe938c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.into-box-container{
+    width: 800px;
+    height: 300px;
+    margin: 40px;
+
+}
+
+.intro-box-projects{
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border: 3px solid rgb(70, 68, 68);
+    position: absolute;
+   bottom: 15px;
+   right: 15px;
+}
+.into-box-shadow{
+    width: 800px;
+    height: 300px;
+    margin: 40px;
+    position: relative;
+    background-color: rgb(70, 68, 68);
+    
+}
+
+.intro-box-projects h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.intro-box-projects p{
+    font-size: 20px;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
