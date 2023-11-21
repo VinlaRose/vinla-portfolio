@@ -3,7 +3,7 @@ import './BoxWithDots.css';
 import StartIcon from '@mui/icons-material/Start';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-const BoxWithDots = ({title, description}) => {
+const BoxWithDots = ({title, description, githubLink, projectLink}) => {
   return (
     <div className="box-info">
       <div className="dots-info">
@@ -17,10 +17,10 @@ const BoxWithDots = ({title, description}) => {
       <div className="projectDescription">{description}</div>
       
       <div className="projectLinks">
-        <span className='projectLinksGithub' >Github</span>
-        <span className='liveLinks'>See Project 
+        <a className='projectLinksGithub' href={githubLink} >Github</a>
+        <a className='liveLinks' href={projectLink}>See Project 
        <ArrowForwardIcon className='arrow'/>
-         </span>
+         </a>
         
       </div>
 

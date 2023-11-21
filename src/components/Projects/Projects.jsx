@@ -12,11 +12,11 @@ export const Projects = () => {
             </div>
             <div className="item-b">
             <BoxWithDots title={"Social Media App"}
-            description={"A social media app having features like posting, editing post deleting, follow/unfollow, edit profile,login, signin features made using ReactJS."}/>
+            description={"A social media app having features like posting, editing post deleting, follow/unfollow, edit profile,login, signin features made using ReactJS."} githubLink={"https://github.com/VinlaRose/social-media-react"} projectLink={"https://slaybook-vin.netlify.app/"}/>
             </div>
             <div className="item-c">
             <BoxWithDots title={"Ecom App"}
-            description={"A website for a furniture store including features like  filterling, sorting, cart, wishlist , payment etc."}/>
+            description={"A website for a furniture store including features like  filterling, sorting, cart, wishlist , payment etc."} githubLink={"https://github.com/VinlaRose/ecom-backend"} projectLink={"https://furnish-vin.netlify.app/"}/>
             </div>
             <div className="item-d">
             
