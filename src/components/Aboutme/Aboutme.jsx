@@ -22,10 +22,10 @@ const AboutMe = () => {
        
       </div>
       <div className="nav-buttons">
-        <a href="#">Aboutme</a>
-        <a href="#projects">Projects</a>
-        <a href="#">Blogs</a>
-        <a href="#connect">Connect</a>
+        <a className='nav-a' href="#">Aboutme</a>
+        <a className='nav-a' href="#projects">Projects</a>
+        <a className='nav-a' href="#">Blogs</a>
+        <a className='nav-a' href="#connect">Connect</a>
         <span onClick={toggleDarkMode}>{state.darkMode ? <LightModeIcon/> : <DarkModeIcon/>}</span>
       </div>
     </nav>
