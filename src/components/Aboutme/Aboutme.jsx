@@ -4,6 +4,9 @@ import { initialState, reducer } from '../../context/reducer';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { GridIcons } from '../gridIcons/GridIcons';
+import gifImage from '../assets/skills.gif'
+
+
 
 
 const AboutMe = () => {
@@ -22,10 +25,11 @@ const AboutMe = () => {
        
       </div>
       <div className="nav-buttons">
-        <a className='nav-a' href="#">Aboutme</a>
-        <a className='nav-a' href="#projects">Projects</a>
-        <a className='nav-a' href="#">Blogs</a>
-        <a className='nav-a' href="#connect">Connect</a>
+     
+        {/* <a className='nav-a' href="#">aboutme</a> */}
+        <a className='nav-a' href="#projects">projects</a>
+        <a className='nav-a' href="#">blogs</a>
+        <a className='nav-a' href="#connect">connect</a>
         <span onClick={toggleDarkMode}>{state.darkMode ? <LightModeIcon/> : <DarkModeIcon/>}</span>
       </div>
     </nav>
@@ -33,7 +37,11 @@ const AboutMe = () => {
      
       <div className="gridSpace"><GridIcons/></div>
       
-      <div className="skillsHeading">Skills.</div>
+      <div className="skillsHeading">
+      <img className='skillsHeadingimg' src={gifImage} alt="" autoPlay={true}  />
+      <h1 className="project-heading">My Skills.</h1>
+      
+      </div>
       
     </div>
       
