@@ -13,7 +13,7 @@ export const ContactPage = () => {
     </div>
     <div className="flip-card-front">
       <h1 className="name-head">Vinla Rose</h1>
-      <p className="name-job">Frontend Engineer</p>
+      <p className="name-job">Frontend Developer</p>
       
     </div>
   </div>

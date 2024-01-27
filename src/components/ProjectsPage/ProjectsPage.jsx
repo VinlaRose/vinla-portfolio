@@ -5,6 +5,27 @@ import "./ProjectsPage.css"
 export const AllProjects = () => {
 
     const allProjects = [
+        // {
+        //     name: "Previous Portfolio",
+        //     description: "My first portolio",
+        //     skills: ["Vanilla JS", "HTML", "CSS"],
+        //     githubLink: "https://github.com/VinlaRose/volunteer-management-redux-toolkit",
+        //     liveLink: "https://vinla.netlify.app/"
+        // },
+        // {
+        //     name: "Previous Portfolio",
+        //     description: "My first portolio",
+        //     skills: ["Vanilla JS", "HTML", "CSS"],
+        //     githubLink: "https://github.com/VinlaRose/Portfolio",
+        //     liveLink: "https://vinla.netlify.app/"
+        // },
+        // {
+        //     name: "Previous Portfolio",
+        //     description: "My first portolio",
+        //     skills: ["Vanilla JS", "HTML", "CSS"],
+        //     githubLink: "https://github.com/VinlaRose/Portfolio",
+        //     liveLink: "https://vinla.netlify.app/"
+        // },
         {
             name: "Video Library",
             description: "A webapp  for videos streaming",
